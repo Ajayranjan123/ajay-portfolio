@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ajay Kumar Ranjan | AI/ML Student &amp; Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Ajay Kumar Ranjan, a second-year B.Tech AI &amp; ML student skilled in Java, C, Python, web development, SQL and DSA.">
+<meta name="theme-color" content="#080B14">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ajay Kumar Ranjan | AI/ML Student &amp; Programmer">
+<meta property="og:description" content="Second-year B.Tech AI &amp; ML student building skills in programming, AI/ML and software development.">
+<!-- After deploying, add: og:url and og:image -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%238B5CF6'/%3E%3Ctext x='32' y='45' font-size='36' font-weight='700' text-anchor='middle' fill='white' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js")</script>
+
+<style>
+/* Profile photo in the hero section */
+.profile-photo-wrap {
+  width: min(100%, 410px);
+  aspect-ratio: 1 / 1;
+  justify-self: center;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: #151827;
+  box-shadow: 0 24px 70px rgba(0,0,0,.38), 0 0 36px rgba(139,92,246,.16);
+}
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 38%;
+}
+@media (max-width: 700px) {
+  .profile-photo-wrap {
+    width: min(78vw, 330px);
+    border-radius: 24px;
+    margin: 12px auto 0;
+  }
+}
+</style>
+\n</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas><div id="glow" class="glow" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav"><div class="container nav-in">
+  <a href="#home" class="brand">AJAY<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav aria-label="Main"><ul class="menu" id="menu">
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+  </ul></nav>
+</div></header>
+
+<main id="main">
+<!-- HERO -->
+<section id="home" class="hero"><div class="container hero-grid">
+  <div class="hero-text reveal">
+    <p class="hello">HELLO, I'M</p>
+    <h1 class="grad">Ajay Kumar Ranjan</h1>
+    <p class="role"><span id="typed">AI/ML Student</span><span class="caret" aria-hidden="true"></span></p>
+    <p class="lead">Building my skills in programming, AI/ML, and software development while turning creative ideas into practical applications.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">Explore My Work</a>
+      <a class="btn" href="assets/resume.pdf" download>Download Resume</a>
+    </div>
+    <span class="badge"><i class="dot"></i>Open to Learning &amp; Internship Opportunities</span>
+  </div>
+  <div class="profile-photo-wrap reveal">
+    <img class="profile-photo" src="assets/ajay-photo.jpg"
+         alt="Portrait of Ajay Kumar Ranjan" fetchpriority="high">
+  </div>
+</div></section>
+
+<!-- ABOUT -->
+<section id="about" class="sec"><div class="container">
+  <div class="sec-head reveal"><h2>About Me</h2><p class="sub">Get to know me</p></div>
+  <p class="about-text reveal">Hi, I'm Ajay Kumar Ranjan, a second-year B.Tech student specializing in Artificial Intelligence and Machine Learning. I have a strong interest in programming, software development, and problem-solving. I am continuously improving my knowledge of Java, C, Python, SQL, and Data Structures and Algorithms. I enjoy creating applications and exploring technologies that help solve real-world problems.</p>
+  <div class="grid">
+    <article class="card reveal"><i class="ico fa-solid fa-graduation-cap"></i><h3>Education</h3><p>B.Tech – AI &amp; ML</p></article>
+    <article class="card reveal"><i class="ico fa-solid fa-code"></i><h3>Focus</h3><p>Programming &amp; Software Development</p></article>
+    <article class="card reveal"><i class="ico fa-solid fa-lightbulb"></i><h3>Interests</h3><p>AI/ML, DSA &amp; Application Development</p></article>
+  </div>
+</div></section>
+
+<!-- SKILLS (meters are decorative; add style="--level:70%" to a .meter to turn it into a real bar) -->
+<section id="skills" class="sec alt"><div class="container">
+  <div class="sec-head reveal"><h2>My Technical Skills</h2></div>
+  <div class="grid">
+    <article class="card reveal"><h3><i class="fa-solid fa-code"></i>Programming</h3><ul class="skills">
+      <li><i class="fa-brands fa-java"></i>Java<span class="meter"></span></li>
+      <li><i class="sym">C</i>C<span class="meter"></span></li>
+      <li><i class="fa-brands fa-python"></i>Python<span class="meter"></span></li></ul></article>
+    <article class="card reveal"><h3><i class="fa-solid fa-globe"></i>Web Development</h3><ul class="skills">
+      <li><i class="fa-brands fa-html5"></i>HTML<span class="meter"></span></li>
+      <li><i class="fa-brands fa-css3-alt"></i>CSS<span class="meter"></span></li>
+      <li><i class="fa-brands fa-js"></i>JavaScript<span class="meter"></span></li></ul></article>
+    <article class="card reveal"><h3><i class="fa-solid fa-microchip"></i>Computer Science</h3><ul class="skills">
+      <li><i class="fa-solid fa-sitemap"></i>Data Structures and Algorithms<span class="meter"></span></li>
+      <li><i class="fa-solid fa-puzzle-piece"></i>Problem Solving<span class="meter"></span></li></ul></article>
+    <article class="card reveal"><h3><i class="fa-solid fa-database"></i>Database</h3><ul class="skills">
+      <li><i class="fa-solid fa-database"></i>SQL<span class="meter"></span></li></ul></article>
+  </div>
+</div></section>
+
+<!-- PROJECTS (cards are generated from the PROJECTS array in js/script.js) -->
+<section id="projects" class="sec"><div class="container">
+  <div class="sec-head reveal"><h2>My Projects</h2><p class="sub">Things I've been building</p></div>
+  <div class="grid projects" id="project-list"></div>
+</div></section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec alt"><div class="container">
+  <div class="sec-head reveal"><h2>My Education</h2></div>
+  <div class="timeline"><article class="tl-item reveal"><span class="tl-dot"></span><div class="card">
+    <span class="pill">Currently Pursuing</span>
+    <h3>Bachelor of Technology (B.Tech)</h3>
+    <p>Artificial Intelligence and Machine Learning</p><p>2nd Year</p>
+  </div></article></div>
+</div></section>
+
+<!-- EXPLORING -->
+<section id="exploring" class="sec"><div class="container">
+  <div class="sec-head reveal"><h2>What I'm Exploring</h2><p class="sub">Actively learning and improving my technical knowledge.</p></div>
+  <div class="grid">
+    <article class="card reveal"><i class="ico fa-solid fa-brain"></i><h3>Artificial Intelligence &amp; Machine Learning</h3><p>Learning how machines learn from data and building a strong foundation in AI/ML concepts.</p></article>
+    <article class="card reveal"><i class="ico fa-solid fa-sitemap"></i><h3>Data Structures &amp; Algorithms</h3><p>Practising core data structures and algorithms to sharpen problem-solving skills.</p></article>
+    <article class="card reveal"><i class="ico fa-solid fa-laptop-code"></i><h3>Software and Application Development</h3><p>Turning ideas into working applications and learning how real software is built.</p></article>
+  </div>
+</div></section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec alt"><div class="container">
+  <div class="sec-head reveal"><h2>Let's Connect</h2><p class="sub">Have an opportunity, project idea, or just want to connect? Feel free to reach out!</p></div>
+  <div class="contact-grid">
+    <div class="links">
+      <a class="card link reveal" href="mailto:ajayr526857@gmail.com"><i class="fa-solid fa-envelope"></i><span><small>Email</small>ajayr526857@gmail.com</span></a>
+      <a class="card link reveal" href="https://www.linkedin.com/in/ajay-ranjan-78b021431" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i><span><small>LinkedIn</small>ajay-ranjan</span></a>
+      <a class="card link reveal" href="https://github.com/Ajayranjan123" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span><small>GitHub</small>Ajayranjan123</span></a>
+    </div>
+    <form id="form" class="card reveal" novalidate>
+      <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" aria-describedby="e-name"><small class="err" id="e-name"></small></div>
+      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" aria-describedby="e-email"><small class="err" id="e-email"></small></div>
+      <div class="field"><label for="f-subject">Subject</label><input id="f-subject" name="subject" aria-describedby="e-subject"><small class="err" id="e-subject"></small></div>
+      <div class="field"><label for="f-message">Message</label><textarea id="f-message" name="message" rows="5" aria-describedby="e-message"></textarea><small class="err" id="e-message"></small></div>
+      <button class="btn primary" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="msg" id="msg" role="status" aria-live="polite"></p>
+      <p class="note">This form opens your email app with the message ready to send. It does not use a server, so nothing is sent until you press Send in your email app.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer class="foot"><div class="container foot-in">
+  <div><strong>Ajay Kumar Ranjan</strong><p>Designed &amp; Developed with passion.</p><p>© <span id="year"></span> Ajay Kumar Ranjan</p></div>
+  <div class="soc">
+    <a href="https://github.com/Ajayranjan123" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/ajay-ranjan-78b021431" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="mailto:ajayr526857@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+  <a class="btn" href="#home">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+</div></footer>
+<a class="to-top" id="toTop" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+<script src="script.js"></script>
+</body>
+</html>
